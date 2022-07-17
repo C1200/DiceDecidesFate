@@ -1,0 +1,12 @@
+.score {
+    & {
+        width: 100%;
+        position: absolute;
+        bottom: 1rem;
+        text-align: center;
+    }
+
+    * {
+        margin: 0;
+    }
+}

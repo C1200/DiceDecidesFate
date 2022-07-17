@@ -1,0 +1,27 @@
+.space {
+    & {
+        margin: 5px;
+        width: 10vw;
+        height: 8vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.5s;
+    }
+
+    &.trap {
+        background-color: $trap;
+    }
+
+    &.free {
+        background-color: $free;
+    }
+
+    &.yay {
+        background-color: $yay;
+    }
+
+    &.start {
+        background-color: $start;
+    }
+}

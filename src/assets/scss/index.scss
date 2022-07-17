@@ -1,0 +1,33 @@
+$trap: #e76f51;
+$free: #2a9d8f;
+$yay: #8447ff;
+$start: #e9c46a;
+$player: #264653;
+
+@import './spaces.scss';
+@import './player.scss';
+@import './score.scss';
+@import './dice.scss';
+@import './modal.scss';
+@import './input.scss';
+@import './menu.scss';
+@import './credits.scss';
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+        'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji',
+        'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

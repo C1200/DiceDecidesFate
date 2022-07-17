@@ -1,0 +1,55 @@
+.input {
+    & {
+        background: #eee;
+        border: 1px solid $player;
+        border-radius: 10px;
+        width: max-content;
+    }
+
+    &.number {
+        & {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.4rem;
+            min-width: 8rem;
+        }
+
+        .display {
+            font-size: 5rem;
+            margin-right: 0.2rem;
+        }
+
+        .controls {
+            & {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            button {
+                & {
+                    all: unset;
+                    padding: 0.2rem;
+                }
+
+                img {
+                    width: 1rem;
+                }
+            }
+        }
+    }
+}
+
+button,
+.btn {
+    & {
+        all: unset;
+        color: white;
+        background: $free;
+        padding: 0.4rem 1rem;
+        font-size: 1rem;
+        border: 1px solid $player;
+        border-radius: 10px;
+        text-align: center;
+    }
+}
